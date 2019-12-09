@@ -1,7 +1,7 @@
 Package: EarthPoints
 Type: Package
 Title: Navigation on Earth
-Version: 0.1.0
+Version: 0.2.0
 Author: Ken Harmon
 Maintainer: Ken Harmon <harmkenn@gmail.com>
 Description: Quick way to navigate and convert.

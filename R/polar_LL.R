@@ -57,7 +57,7 @@ polar_ll <- function(lat1d,lng1d,dist,shotd){
 
   data.frame("Launch Latitude" = lat1d,
              "Launch Longitude" = lng1d,
-             "Distance" = paste(round(dist,0),"km"),
+             "Distance km" = dist,
              "Launch Bearing" = paste(round(shotd,2)),
              "Landing Latitude" = lat2d,
              "Landing Longitude" = lng2d,

@@ -10,7 +10,7 @@
 ## Update the details for the return value
 #' @return This function returns a \code{data.frame} including columns:
 #' \itemize{
-#'  \item Latitude 
+#'  \item Latitude
 #'  \item Longitude
 #'  \item Easting
 #'  \item Northing
