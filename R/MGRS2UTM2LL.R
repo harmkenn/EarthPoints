@@ -2,10 +2,6 @@
 #'
 #' Convert MGRS into Lat Long through UTM
 #' @param MGRS String of 15 characters of Military Grid Reference
-#' @import stringr
-#' @import plyr
-#' @import pracma
-#' @importFrom pracma mod
 #' @export
 #' @examples
 #' MGRS2UTM2LL("11SNV3000010000")
@@ -30,7 +26,6 @@ MGRS2UTM2LL <-function(MGRS){
   mod <- pracma::mod
   match_df <- plyr::match_df
   f_pad_zero <- numform::f_pad_zero
-
   # 100km grid Square easting letter
   esqls <- as.matrix(rbind(c("A","B","C","D","E","F","G","H"),
                            c("J","K","L","M","N","P","Q","R"),

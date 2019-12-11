@@ -1,7 +1,7 @@
 Package: EarthPoints
 Type: Package
 Title: Navigation on Earth
-Version: 0.2.0
+Version: 0.3.0
 Author: Ken Harmon
 Maintainer: Ken Harmon <harmkenn@gmail.com>
 Description: Quick way to navigate and convert.
@@ -9,3 +9,12 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
+Collate: 
+    'EarthPoints.R'
+    'LL2UTM2MGRS.R'
+    'MGRS2UTM2LL.R'
+    'UTM2MGRS2LL.R'
+    'northdes.R'
+    'polar_LL.R'
+    'shot_LL.R'
+

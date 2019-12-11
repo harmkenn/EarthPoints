@@ -5,9 +5,6 @@
 #' @param Northing numeric 7 digit Northing
 #' @param gzn numeric 2 digit zone
 #' @param hem character Hemisphere "N" or "S"
-#' @import plyr
-#' @import pracma
-#' @importFrom pracma mod
 #' @export
 #' @examples
 #' UTM2MGRS2LL(530000,3910000,11,"N")
